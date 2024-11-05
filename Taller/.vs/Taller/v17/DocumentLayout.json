@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasprogramacion\\tallerherramientasdeprogramaci-n\\taller\\taller\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasprogramacion\\tallerherramientasdeprogramaci-n\\taller\\taller\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasprogramacion\\tallerherramientasdeprogramaci-n\\taller\\taller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\taller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -23,26 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Class2.cs",
+              "RelativeDocumentMoniker": "Taller\\Class2.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Class2.cs",
+              "RelativeToolTip": "Taller\\Class2.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T22:34:35.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Class1.cs",
               "RelativeDocumentMoniker": "Taller\\Class1.cs",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Class1.cs",
               "RelativeToolTip": "Taller\\Class1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T00:07:23.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Form1.cs",
+              "RelativeDocumentMoniker": "Taller\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Form1.cs",
+              "RelativeToolTip": "Taller\\Form1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T22:57:13.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Form1.cs",
               "RelativeDocumentMoniker": "Taller\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasProgramacion\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Taller\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T00:04:02.76Z"
+              "WhenOpened": "2024-10-28T00:04:02.76Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

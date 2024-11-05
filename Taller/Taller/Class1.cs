@@ -24,34 +24,6 @@ namespace Modelo
         public List<Material> Catalogo_lista { get => catalogo_lista; set => catalogo_lista = value; }
         public List<Persona> Persona_lista { get => persona_lista; set => persona_lista = value; }
         public List<Transaccion> Transaccion_lista { get => transaccion_lista; set => transaccion_lista = value; }
-
-
-        //metodos de la clase biblioteca1
-        //Registrar material
-        public bool Registrar_Material(List<Material> catalogo_lista, Material material) {
-
-            if (catalogo_lista.Any(m => m.Identificador == material.Identificador)) {
-                throw new ArgumentException("Ya existe un material con este identificador");
-            }
-            catalogo_lista.Add(material);
-            return true;
-        }
-        //Registrar persona
-        public bool Registrar_Persona( List<Persona> persona_lista, Persona persona)
-        {
-            if (persona_lista.Any(m => m.Id == persona.Id)){
-                throw new ArgumentException("Ya existe una persona con este id");
-            }
-            persona_lista.Add(persona);
-            return true;
-        }
-        //Registrar un prestamo
-
-        public bool Registrar_Prestamo( List<Transaccion> transaccion_lista, TipoTransaccion tipo_Transaccion, List<Persona> persona_lista, Persona persona, Material material)
-        {
-
-        }
-
         
     }
 
@@ -88,53 +60,50 @@ namespace Modelo
         private int id;
         private string nombre;
         //Creamos un atributo rol de tipo rol, para poder elegir entre estudiante, profesor y administrador
-        private Rol rol;
+        private TipoRol rol;
+        private int material_max_persona;
 
-        public enum Rol
+        public enum TipoRol
         {
-            Estudiante,
-            Profesor,
-            Administrador
+            estudiante,
+            profesor,
+            administrador
         }
 
-        public Persona(int id, string nombre, Rol rol)
+        public Persona(int id, string nombre, TipoRol rol, int material_max_persona)
         {
             this.Id = id;
             this.Nombre = nombre;
-            this.Rol1 = rol;
+            this.Rol = rol;
+            this.Material_max_persona = material_max_persona;
         }
 
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
-        public Rol Rol1 { get => rol; set => rol = value; }
+        public TipoRol Rol { get => rol; set => rol = value; }
+        public int Material_max_persona { get => material_max_persona ; set => material_max_persona = value; }
       
     } 
 
     public class  Transaccion
     {
     //creamos un atributo de tipo transaccion que me va permitir constantes Prestamo, devolucion o adicion
-    public TipoTransaccion tipo_transaccion;
+    private string tipo_transaccion;
     private DateTime fecha_transaccion;
     private Persona persona;
     private Material material;
-    public enum TipoTransaccion
-    {
-        Prestamo,
-        Devolucion,
-        Adicion
-    }
-    public Transaccion(TipoTransaccion tipo_transaccion, DateTime fecha_transaccion, Persona persona, Material material)
-    {
-        this.Tipo_transaccion = tipo_transaccion;
-        this.Fecha_transaccion = fecha_transaccion;
-        this.Persona = persona;
-        this.Material = material;
-    }
 
-    public TipoTransaccion Tipo_transaccion { get => tipo_transaccion; set => tipo_transaccion = value; }
-    public DateTime Fecha_transaccion { get => fecha_transaccion; set => fecha_transaccion = value; }
-    public Persona Persona { get => persona; set => persona = value; }
-    public Material Material { get => material; set => material = value; }
-    
+        public Transaccion(string tipo_transaccion, DateTime fecha_transaccion, Persona persona, Material material)
+        {
+            this.Tipo_transaccion = tipo_transaccion;
+            this.Fecha_transaccion = fecha_transaccion;
+            this.Persona = persona;
+            this.Material = material;
+        }
+
+        public string Tipo_transaccion { get => tipo_transaccion; set => tipo_transaccion = value; }
+        public DateTime Fecha_transaccion { get => fecha_transaccion; set => fecha_transaccion = value; }
+        public Persona Persona { get => persona; set => persona = value; }
+        public Material Material { get => material; set => material = value; }
     }
 }
