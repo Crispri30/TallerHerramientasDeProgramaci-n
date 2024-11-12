@@ -16,9 +16,9 @@ namespace Modelo
 
         public Biblioteca1(List<Material> catalogo_lista, List<Persona> persona_lista, List<Transaccion> transaccion_lista)
         {
-            this.Catalogo_lista = catalogo_lista;
-            this.Persona_lista = persona_lista;
-            this.Transaccion_lista = transaccion_lista;
+            this.Catalogo_lista = new List<Material>();
+            this.Persona_lista = new List<Persona>();
+            this.Transaccion_lista = new List<Transaccion>();
         }
 
         public List<Material> Catalogo_lista { get => catalogo_lista; set => catalogo_lista = value; }
@@ -62,6 +62,7 @@ namespace Modelo
         //Creamos un atributo rol de tipo rol, para poder elegir entre estudiante, profesor y administrador
         private TipoRol rol;
         private int material_max_persona;
+        private int material_actual_persona;
 
         public enum TipoRol
         {
@@ -70,18 +71,32 @@ namespace Modelo
             administrador
         }
 
-        public Persona(int id, string nombre, TipoRol rol, int material_max_persona)
+        public Persona(int id, string nombre, TipoRol rol, int material_max_persona, int material_actual_persona)
         {
             this.Id = id;
             this.Nombre = nombre;
             this.Rol = rol;
-            this.Material_max_persona = material_max_persona;
+            this.Material_actual_persona = material_actual_persona;
+            // Define el límite de préstamos según el rol
+            switch (rol)
+            {
+                case TipoRol.estudiante:
+                    this.material_max_persona = 5;
+                    break;
+                case TipoRol.profesor:
+                    this.material_max_persona = 3;
+                    break;
+                case TipoRol.administrador:
+                    this.material_max_persona = 1;
+                    break;
+            }
         }
 
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public TipoRol Rol { get => rol; set => rol = value; }
         public int Material_max_persona { get => material_max_persona ; set => material_max_persona = value; }
+        public int Material_actual_persona { get => material_actual_persona; set => material_actual_persona = value; }
       
     } 
 

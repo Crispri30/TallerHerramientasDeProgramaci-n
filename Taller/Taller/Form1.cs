@@ -14,10 +14,12 @@ namespace Taller
     public partial class Form1 : Form
     {
         private Biblioteca1 biblioteca;
+        private Controller controller;
         public Form1()
         {
             InitializeComponent();
-            this.biblioteca = new Biblioteca1(new List<Material>(), new List<Persona>(), new List<Transaccion>());
+            biblioteca = new Biblioteca1(new List<Material>(), new List<Persona>(), new List<Transaccion>());
+            controller = new Controller();
 
         }
 

@@ -12,87 +12,145 @@ namespace Taller
     {
         public Controller() { }
 
-        //Busquedas por material y por persona
+        //Busquedas por material
         public Material Buscar_material(Biblioteca1 biblioteca, int identificador)
         {
             foreach (Material mat in biblioteca.Catalogo_lista)
             {
-                //m el material
-                if(mat.Identificador == identificador)
+                //mat el material
+                if(biblioteca.Catalogo_lista != null && mat.Identificador == identificador)
                 {
                     return mat;
                 }
             }
             return null;
         }
-
+        //buscar persona
         public Persona Buscar_Persona(Biblioteca1 biblioteca, int id)
         {
             foreach(Persona cedula in biblioteca.Persona_lista)
             {
-                if(cedula.Id == id)
+                if(biblioteca.Persona_lista != null && cedula.Id == id)
                 {
                     return cedula;
                 }
             }
             return null;
         }
-
-
-        //Registrar material
-        public bool Registrar_Material(List<Material> catalogo_lista, Material material, Biblioteca1 biblioteca)
-        {
-
-            if (Buscar_material(biblioteca, material.Identificador) != null )
-            {
-                throw new ArgumentException("Ya existe un material con este identificador");
-            }
-            else
-            {
-                catalogo_lista.Add(material);
-                material.Cantidad_actual++;
-                material.Cantidad_registrada++;
-                return true;
-            }
-            
-
-        }
         //Registrar persona
-        public bool Registrar_Persona(List<Persona> persona_lista, Persona persona, Biblioteca1 biblioteca)
+        public bool Registrar_Persona(Persona persona, Biblioteca1 biblioteca, int id)
         {
-            if (Buscar_Persona(biblioteca, persona.Id) != null )
+            if (Buscar_Persona(biblioteca, id) != null)
             {
                 throw new ArgumentException("Ya existe una persona con este id");
             }
-            else
-            {
-                // Usa la propiedad `Rol` de la persona para determinar `Material_max_persona`
-                if (persona.Rol == Persona.TipoRol.estudiante)
-                {
-                    persona.Material_max_persona = 5;
-                }
-                else if (persona.Rol == Persona.TipoRol.profesor)
-                {
-                    persona.Material_max_persona = 3;
-                }
-                else if (persona.Rol == Persona.TipoRol.administrador)
-                {
-                    persona.Material_max_persona = 1;
-                }
+            
+            biblioteca.Persona_lista.Add(persona);
+            return true;
+        }
 
+        //Registrar material
+        public bool Registrar_Material(Material material, Biblioteca1 biblioteca, int identificador)
+        {
+
+            if (Buscar_material(biblioteca, identificador) != null )
+            {
+                throw new ArgumentException("Ya existe un material con este identificador");
             }
-            persona_lista.Add(persona);
+              
+            biblioteca.Catalogo_lista.Add(material);
+            material.Cantidad_actual++;
+            material.Cantidad_registrada++;
+            return true;
+        }
+
+        //Eliminar una persona
+        public bool Eliminar_Persona(Biblioteca1 biblioteca, int id)
+        {
+            Persona persona = Buscar_Persona(biblioteca, id);
+            if (persona == null)
+            {
+                throw new ArgumentException("No se encontro a la persona");
+            }
+            if (persona.Material_actual_persona > 0)
+            {
+                throw new ArgumentException("No se puede eliminar, la persona tiene materiales prestados");
+            }
+            biblioteca.Persona_lista.Remove(persona);
             return true;
         }
 
         //Registrar un prestamo
 
-        public void Registrar_Prestamo(Biblioteca1 biblioteca, string tipo_transaccion, Material material, Persona persona)
+        public bool Registrar_Prestamo(Biblioteca1 biblioteca, int id, int identificador)
         {
-            Buscar_material(biblioteca, material.Identificador);
-            Buscar_Persona(biblioteca, persona.Id);
-            if (persona.Rol == Persona.TipoRol.estudiante &&  < 5)
+            Persona persona = Buscar_Persona(biblioteca, id);
+            Material material = Buscar_material(biblioteca, identificador);
 
+            if (persona == null || material == null )
+            {
+                throw new ArgumentException("Material o persona no encontrados");
+            }
+            if (material.Cantidad_actual == 0)
+            {
+                throw new ArgumentException("Cantidad actual del material no disponible");
+            }
+            if (persona.Material_actual_persona > persona.Material_max_persona)
+            {
+                throw new ArgumentException("Usuario llego al limite de materiales prestados");
+            }
+            material.Cantidad_actual--;
+            persona.Material_actual_persona++;
+
+            //Crear una nueva variable transaccion con los datos de la persona, material y tipo de transaccion
+            Transaccion transaccion = new Transaccion("Prestamo", DateTime.Now, persona, material);
+            //Añadir transaccion en la lista
+            biblioteca.Transaccion_lista.Add(transaccion);
+            return true;
+        }
+
+        public bool Registrar_Devolucion(Biblioteca1 biblioteca, int id, int identificador)
+        {
+            Persona persona = Buscar_Persona(biblioteca, id);
+            Material material = Buscar_material(biblioteca, identificador);
+
+            if (persona == null || material == null)
+            {
+                throw new ArgumentException("Persona o material no encontrado");
+            }
+            if (persona.Material_actual_persona <= 0)
+            {
+                throw new ArgumentException("No hay materiales prestados por esta persona");
+            }
+
+            material.Cantidad_actual++;
+            persona.Material_actual_persona--;
+
+            Transaccion transaccion = new Transaccion("Devolucion", DateTime.Now, persona, material);
+            biblioteca.Transaccion_lista.Add(transaccion);
+            return true;
+        }
+
+        public bool Adicionar_Material(Biblioteca1 biblioteca, int id, int identificador)
+        {
+            Persona persona = Buscar_Persona(biblioteca, id);
+            Material material = Buscar_material(biblioteca, identificador);
+
+            if (persona == null || material == null)
+            {
+                throw new ArgumentException("Material o persona no encontrados");
+            }
+            material.Cantidad_actual++;
+            material.Cantidad_registrada++;
+
+            Transaccion transaccion = new Transaccion("Adicionar material", DateTime.Now, persona, material);
+            biblioteca.Transaccion_lista.Add(transaccion);
+            return true;
+        }
+
+        public List<Transaccion> Consultar_Historial(Biblioteca1 biblioteca)
+        {
+            return biblioteca.Transaccion_lista;
         }
     }
 }
