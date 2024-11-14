@@ -27,5 +27,19 @@ namespace Taller
         {
 
         }
+
+        private void ButtonRegistrarPersona_Click(object sender, EventArgs e)
+        {
+            
+            RegistrarPersonaForm registrarpersonaForm = new RegistrarPersonaForm(biblioteca, controller);
+            //abrir el form de registrar persona y almacenar los datos en la var registrarpersonaForm
+            registrarpersonaForm.ShowDialog();
+        }
+
+        private void ButtonRegistrarMaterial_Click(object sender, EventArgs e)
+        {
+            RegistrarMaterialForm registrarmaterialForm = new RegistrarMaterialForm(biblioteca, controller);
+            registrarmaterialForm.ShowDialog();
+        }
     }
 }

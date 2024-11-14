@@ -8,7 +8,7 @@ using static Modelo.Transaccion;
 
 namespace Taller
 {
-    internal class Controller
+    public class Controller
     {
         public Controller() { }
 

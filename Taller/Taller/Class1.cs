@@ -77,6 +77,7 @@ namespace Modelo
             this.Nombre = nombre;
             this.Rol = rol;
             this.Material_actual_persona = material_actual_persona;
+            this.Material_max_persona = material_max_persona;
             // Define el límite de préstamos según el rol
             switch (rol)
             {

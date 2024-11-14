@@ -54,9 +54,27 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarMaterialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarMaterialForm.Designer.cs">
+      <DependentUpon>RegistrarMaterialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarPersonaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarPersonaForm.Designer.cs">
+      <DependentUpon>RegistrarPersonaForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -69,6 +87,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RegistrarMaterialForm.resx">
+      <DependentUpon>RegistrarMaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarPersonaForm.resx">
+      <DependentUpon>RegistrarPersonaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
