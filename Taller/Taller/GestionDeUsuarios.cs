@@ -25,10 +25,7 @@ namespace Taller
             comboBoxRol.DataSource = Enum.GetValues(typeof(Persona.TipoRol));
         }
 
-        private void RegistrarPersonaForm_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void ConfirmarRegistrarPersona_Click(object sender, EventArgs e)
         {

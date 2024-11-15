@@ -30,7 +30,7 @@ namespace Taller
                 int identificador = int.Parse(IdentificadorLibro.Text);
                 string titulo_material = TituloLibro.Text;
                 DateTime fecha_registro = DateTime.Now;
-                int cantidad_registrada = 0;
+                int cantidad_registrada = 0;    
                 int cantidad_actual = 0;
 
                 Material material = new Material(identificador, titulo_material, fecha_registro, cantidad_registrada, cantidad_actual);

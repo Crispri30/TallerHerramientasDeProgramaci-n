@@ -155,7 +155,6 @@
             this.Controls.Add(this.ConfirmarRegistrarPersona);
             this.Name = "RegistrarPersonaForm";
             this.Text = "RegistrarPersonaForm";
-            this.Load += new System.EventHandler(this.RegistrarPersonaForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

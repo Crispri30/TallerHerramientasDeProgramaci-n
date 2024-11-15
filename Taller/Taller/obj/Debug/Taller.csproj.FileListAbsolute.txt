@@ -21,3 +21,4 @@ C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller
 C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller\bin\Debug\Taller.exe.config
 C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller\bin\Debug\Taller.exe
 C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller\bin\Debug\Taller.pdb
+C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.TransaccionesForm.resources

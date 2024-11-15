@@ -121,5 +121,6 @@ namespace Modelo
         public DateTime Fecha_transaccion { get => fecha_transaccion; set => fecha_transaccion = value; }
         public Persona Persona { get => persona; set => persona = value; }
         public Material Material { get => material; set => material = value; }
+
     }
 }

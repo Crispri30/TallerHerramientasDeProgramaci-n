@@ -69,6 +69,12 @@
     <Compile Include="GestionDeUsuarios.Designer.cs">
       <DependentUpon>GestionDeUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="TransaccionesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransaccionesForm.Designer.cs">
+      <DependentUpon>TransaccionesForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GestionDeUsuarios.resx">
       <DependentUpon>GestionDeUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransaccionesForm.resx">
+      <DependentUpon>TransaccionesForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

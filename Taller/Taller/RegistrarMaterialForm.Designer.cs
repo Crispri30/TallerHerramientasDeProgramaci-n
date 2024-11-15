@@ -37,18 +37,18 @@
             // 
             // ConfirmarRegistrarMaterial
             // 
-            this.ConfirmarRegistrarMaterial.Location = new System.Drawing.Point(614, 262);
+            this.ConfirmarRegistrarMaterial.Location = new System.Drawing.Point(340, 236);
             this.ConfirmarRegistrarMaterial.Name = "ConfirmarRegistrarMaterial";
-            this.ConfirmarRegistrarMaterial.Size = new System.Drawing.Size(95, 43);
+            this.ConfirmarRegistrarMaterial.Size = new System.Drawing.Size(114, 35);
             this.ConfirmarRegistrarMaterial.TabIndex = 0;
-            this.ConfirmarRegistrarMaterial.Text = "Confirmar";
+            this.ConfirmarRegistrarMaterial.Text = "Confirmar registro";
             this.ConfirmarRegistrarMaterial.UseVisualStyleBackColor = true;
             this.ConfirmarRegistrarMaterial.Click += new System.EventHandler(this.ConfirmarRegistrarMaterial_Click);
             // 
             // Identificador
             // 
             this.Identificador.AutoSize = true;
-            this.Identificador.Location = new System.Drawing.Point(193, 66);
+            this.Identificador.Location = new System.Drawing.Point(211, 135);
             this.Identificador.Name = "Identificador";
             this.Identificador.Size = new System.Drawing.Size(65, 13);
             this.Identificador.TabIndex = 1;
@@ -57,7 +57,7 @@
             // Titulo
             // 
             this.Titulo.AutoSize = true;
-            this.Titulo.Location = new System.Drawing.Point(203, 97);
+            this.Titulo.Location = new System.Drawing.Point(221, 190);
             this.Titulo.Name = "Titulo";
             this.Titulo.Size = new System.Drawing.Size(33, 13);
             this.Titulo.TabIndex = 2;
@@ -65,14 +65,14 @@
             // 
             // IdentificadorLibro
             // 
-            this.IdentificadorLibro.Location = new System.Drawing.Point(322, 59);
+            this.IdentificadorLibro.Location = new System.Drawing.Point(340, 132);
             this.IdentificadorLibro.Name = "IdentificadorLibro";
             this.IdentificadorLibro.Size = new System.Drawing.Size(100, 20);
             this.IdentificadorLibro.TabIndex = 3;
             // 
             // TituloLibro
             // 
-            this.TituloLibro.Location = new System.Drawing.Point(322, 97);
+            this.TituloLibro.Location = new System.Drawing.Point(340, 187);
             this.TituloLibro.Name = "TituloLibro";
             this.TituloLibro.Size = new System.Drawing.Size(100, 20);
             this.TituloLibro.TabIndex = 4;

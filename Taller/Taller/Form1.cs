@@ -23,11 +23,6 @@ namespace Taller
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void ButtonGestionUsuarios_Click(object sender, EventArgs e)
         {
             
@@ -42,6 +37,10 @@ namespace Taller
             registrarmaterialForm.ShowDialog();
         }
 
-        
+        private void ButtonRegistrarPrestamo_Click(object sender, EventArgs e)
+        {
+            TransaccionesForm  transaccionesform = new TransaccionesForm(biblioteca, controller);
+            transaccionesform.ShowDialog();
+        }
     }
 }

@@ -86,7 +86,6 @@ namespace Taller
         }
 
         //Registrar un prestamo
-
         public bool Registrar_Prestamo(Biblioteca1 biblioteca, int id, int identificador)
         {
             Persona persona = Buscar_Persona(biblioteca, id);
@@ -100,7 +99,7 @@ namespace Taller
             {
                 throw new ArgumentException("Cantidad actual del material no disponible");
             }
-            if (persona.Material_actual_persona > persona.Material_max_persona)
+            if (persona.Material_actual_persona >= persona.Material_max_persona)
             {
                 throw new ArgumentException("Usuario llego al limite de materiales prestados");
             }
