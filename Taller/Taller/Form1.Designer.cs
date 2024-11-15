@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ButtonRegistrarPersona = new System.Windows.Forms.Button();
-            this.ButtonEliminarPersona = new System.Windows.Forms.Button();
+            this.ButtonGestionUsuarios = new System.Windows.Forms.Button();
             this.ButtonRegistrarMaterial = new System.Windows.Forms.Button();
             this.ButtonConsultarHistorial = new System.Windows.Forms.Button();
             this.ButtonRegistrarPrestamo = new System.Windows.Forms.Button();
@@ -37,24 +36,15 @@
             this.ButtonAdicionarMaterial = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // ButtonRegistrarPersona
+            // ButtonGestionUsuarios
             // 
-            this.ButtonRegistrarPersona.Location = new System.Drawing.Point(129, 125);
-            this.ButtonRegistrarPersona.Name = "ButtonRegistrarPersona";
-            this.ButtonRegistrarPersona.Size = new System.Drawing.Size(108, 33);
-            this.ButtonRegistrarPersona.TabIndex = 0;
-            this.ButtonRegistrarPersona.Text = "Registrar persona";
-            this.ButtonRegistrarPersona.UseVisualStyleBackColor = true;
-            this.ButtonRegistrarPersona.Click += new System.EventHandler(this.ButtonRegistrarPersona_Click);
-            // 
-            // ButtonEliminarPersona
-            // 
-            this.ButtonEliminarPersona.Location = new System.Drawing.Point(129, 223);
-            this.ButtonEliminarPersona.Name = "ButtonEliminarPersona";
-            this.ButtonEliminarPersona.Size = new System.Drawing.Size(108, 33);
-            this.ButtonEliminarPersona.TabIndex = 1;
-            this.ButtonEliminarPersona.Text = "Eliminar persona";
-            this.ButtonEliminarPersona.UseVisualStyleBackColor = true;
+            this.ButtonGestionUsuarios.Location = new System.Drawing.Point(129, 125);
+            this.ButtonGestionUsuarios.Name = "ButtonGestionUsuarios";
+            this.ButtonGestionUsuarios.Size = new System.Drawing.Size(108, 33);
+            this.ButtonGestionUsuarios.TabIndex = 0;
+            this.ButtonGestionUsuarios.Text = "Gestión de usuarios";
+            this.ButtonGestionUsuarios.UseVisualStyleBackColor = true;
+            this.ButtonGestionUsuarios.Click += new System.EventHandler(this.ButtonGestionUsuarios_Click);
             // 
             // ButtonRegistrarMaterial
             // 
@@ -112,8 +102,7 @@
             this.Controls.Add(this.ButtonRegistrarPrestamo);
             this.Controls.Add(this.ButtonConsultarHistorial);
             this.Controls.Add(this.ButtonRegistrarMaterial);
-            this.Controls.Add(this.ButtonEliminarPersona);
-            this.Controls.Add(this.ButtonRegistrarPersona);
+            this.Controls.Add(this.ButtonGestionUsuarios);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -123,8 +112,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button ButtonRegistrarPersona;
-        private System.Windows.Forms.Button ButtonEliminarPersona;
+        private System.Windows.Forms.Button ButtonGestionUsuarios;
         private System.Windows.Forms.Button ButtonRegistrarMaterial;
         private System.Windows.Forms.Button ButtonConsultarHistorial;
         private System.Windows.Forms.Button ButtonRegistrarPrestamo;

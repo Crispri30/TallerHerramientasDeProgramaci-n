@@ -46,19 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class2.cs" />
+    <Compile Include="Modelo.cs" />
+    <Compile Include="Controller.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
@@ -69,11 +63,11 @@
     <Compile Include="RegistrarMaterialForm.Designer.cs">
       <DependentUpon>RegistrarMaterialForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrarPersonaForm.cs">
+    <Compile Include="GestionDeUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrarPersonaForm.Designer.cs">
-      <DependentUpon>RegistrarPersonaForm.cs</DependentUpon>
+    <Compile Include="GestionDeUsuarios.Designer.cs">
+      <DependentUpon>GestionDeUsuarios.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -90,8 +84,8 @@
     <EmbeddedResource Include="RegistrarMaterialForm.resx">
       <DependentUpon>RegistrarMaterialForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistrarPersonaForm.resx">
-      <DependentUpon>RegistrarPersonaForm.cs</DependentUpon>
+    <EmbeddedResource Include="GestionDeUsuarios.resx">
+      <DependentUpon>GestionDeUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

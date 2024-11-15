@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Taller
 {
-    public partial class RegistrarPersonaForm : Form
+    public partial class GestionDeUsuarios : Form
     {
         private Biblioteca1 biblioteca;
         private Controller controller;
-        public RegistrarPersonaForm(Biblioteca1 biblioteca, Controller controller)
+        public GestionDeUsuarios(Biblioteca1 biblioteca, Controller controller)
         {
             InitializeComponent();
             this.biblioteca = biblioteca;
@@ -66,6 +66,20 @@ namespace Taller
 
             }
             catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void ConfirmarEliminarPersona_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int id = int.Parse(IDPersona.Text);
+                this.controller.Eliminar_Persona(biblioteca, id);
+               
+            }
+            catch (Exception ex)
+            {
                 MessageBox.Show(ex.Message);
             }
         }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using static Modelo.Transaccion;
 
 namespace Taller
@@ -76,8 +77,12 @@ namespace Taller
             {
                 throw new ArgumentException("No se puede eliminar, la persona tiene materiales prestados");
             }
-            biblioteca.Persona_lista.Remove(persona);
-            return true;
+            else
+            {
+                biblioteca.Persona_lista.Remove(persona);
+                MessageBox.Show("Usuario eliminado con exito");
+                return true;
+            }
         }
 
         //Registrar un prestamo
