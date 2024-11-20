@@ -22,3 +22,16 @@ C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller
 C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller\bin\Debug\Taller.exe
 C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller\bin\Debug\Taller.pdb
 C:\Users\user\OneDrive\Escritorio\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.TransaccionesForm.resources
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\bin\Debug\Taller.exe.config
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\bin\Debug\Taller.exe
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\bin\Debug\Taller.pdb
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.csproj.AssemblyReference.cache
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.Form1.resources
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.RegistrarMaterialForm.resources
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.GestionDeUsuarios.resources
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.TransaccionesForm.resources
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.cache
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.csproj.CoreCompileInputs.cache
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.exe
+C:\Users\camil\OneDrive\Documentos\tareas\Proyecto final hp\TallerHerramientasDeProgramaci-n\Taller\Taller\obj\Debug\Taller.pdb

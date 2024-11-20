@@ -85,7 +85,7 @@ namespace Taller
 
         private void ButtonConsultarHistorial_Click(object sender, EventArgs e)
         {
-           
+            controller.Consultar_Historial(biblioteca);
             
         }
     }
