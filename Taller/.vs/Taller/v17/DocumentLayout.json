@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|c:\\users\\camil\\onedrive\\documentos\\tareas\\proyecto final hp\\tallerherramientasdeprogramaci-n\\taller\\taller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|c:\\users\\user\\onedrive\\escritorio\\tallerherramientasdeprogramaci-n\\taller\\taller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\taller\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\taller\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\taller\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\taller\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\taller\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\gestiondeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|c:\\users\\user\\onedrive\\escritorio\\tallerherramientasdeprogramaci-n\\taller\\taller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\taller\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E047081E-3C07-4C4C-B014-5A1BED7DB68D}|Taller\\Taller.csproj|solutionrelative:taller\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +30,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Form1.cs",
+              "RelativeDocumentMoniker": "Taller\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Taller\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T22:58:33.469Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Modelo.cs",
-              "DocumentMoniker": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Modelo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Modelo.cs",
               "RelativeDocumentMoniker": "Taller\\Modelo.cs",
-              "ToolTip": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Modelo.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Modelo.cs",
               "RelativeToolTip": "Taller\\Modelo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -46,39 +58,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Controller.cs",
-              "DocumentMoniker": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Controller.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Controller.cs",
               "RelativeDocumentMoniker": "Taller\\Controller.cs",
-              "ToolTip": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Controller.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\Controller.cs",
               "RelativeToolTip": "Taller\\Controller.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAcwHoAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAwHoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T18:50:13.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GestionDeUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\GestionDeUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\GestionDeUsuarios.cs",
               "RelativeDocumentMoniker": "Taller\\GestionDeUsuarios.cs",
-              "ToolTip": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\GestionDeUsuarios.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\GestionDeUsuarios.cs",
               "RelativeToolTip": "Taller\\GestionDeUsuarios.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAewDkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:04:50.342Z"
+              "WhenOpened": "2024-11-15T19:04:50.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GestionDeUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\GestionDeUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\GestionDeUsuarios.cs",
               "RelativeDocumentMoniker": "Taller\\GestionDeUsuarios.cs",
-              "ToolTip": "C:\\Users\\camil\\OneDrive\\Documentos\\tareas\\Proyecto final hp\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\GestionDeUsuarios.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\TallerHerramientasDeProgramaci-n\\Taller\\Taller\\GestionDeUsuarios.cs [Dise\u00F1o]",
               "RelativeToolTip": "Taller\\GestionDeUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:04:33.061Z"
+              "WhenOpened": "2024-11-15T19:04:33.061Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
